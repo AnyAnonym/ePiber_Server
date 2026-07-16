@@ -1,6 +1,9 @@
 # Allgemein
 same as ePiber but this time without firebase functions or cloud functions just arch linux with caddy and node.js and the google spreadsheet as a DB
 
+
+
+
 # Git-Befehle-Ablauf:
 
 ## 1. Status & Branch prüfen
@@ -9,7 +12,7 @@ git status
 git branch
 
 ## 2. Falls noch keine Dateien gestaged sind (man kann auch Ordner auswählen!)
-git add .
+git add -A <-- -A sagt alle Datein im Repo sollen genutzt werden
 
 ## 3. Ersten Commit erstellen (falls noch keiner existiert)
 git commit -m "Beschreibung der Änderung"
